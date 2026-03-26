@@ -3,12 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:background="@color/bg_gray">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#EE4D2D">
+        android:background="@color/shopee_orange">
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/toolbarHome"
@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="8dp"
-            android:background="#EE4D2D">
+            android:background="@color/shopee_orange">
 
             <Button
                 android:id="@+id/btnNavCategories"
@@ -86,7 +86,7 @@
                 android:layout_height="wrap_content"
                 android:padding="12dp"
                 android:text="GỢI Ý HÔM NAY"
-                android:textColor="#EE4D2D"
+                android:textColor="@color/shopee_orange"
                 android:textStyle="bold" />
 
             <androidx.recyclerview.widget.RecyclerView

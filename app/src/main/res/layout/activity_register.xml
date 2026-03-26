@@ -24,7 +24,7 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="ĐĂNG NHẬP"
+                android:text="ĐĂNG KÝ MỚI"
                 android:textColor="@color/shopee_orange"
                 android:textSize="22sp"
                 android:textStyle="bold"
@@ -32,17 +32,27 @@
                 android:layout_marginBottom="24dp"/>
 
             <EditText
-                android:id="@+id/etUsername"
+                android:id="@+id/etRegUsername"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@android:drawable/edit_text"
                 android:hint="Tên đăng nhập"
                 android:paddingStart="12dp"
                 android:paddingEnd="12dp"
-                android:layout_marginBottom="16dp"/>
+                android:layout_marginBottom="12dp"/>
 
             <EditText
-                android:id="@+id/etPassword"
+                android:id="@+id/etRegFullName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:hint="Họ và tên"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/etRegPassword"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:background="@android:drawable/edit_text"
@@ -50,15 +60,26 @@
                 android:inputType="textPassword"
                 android:paddingStart="12dp"
                 android:paddingEnd="12dp"
+                android:layout_marginBottom="12dp"/>
+
+            <EditText
+                android:id="@+id/etRegConfirmPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@android:drawable/edit_text"
+                android:hint="Xác nhận mật khẩu"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingEnd="12dp"
                 android:layout_marginBottom="24dp"/>
 
             <Button
-                android:id="@+id/btnLogin"
+                android:id="@+id/btnRegister"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:backgroundTint="@color/shopee_orange"
                 android:textColor="@color/white"
-                android:text="ĐĂNG NHẬP"
+                android:text="ĐĂNG KÝ"
                 android:textStyle="bold"
                 app:cornerRadius="4dp" />
 
@@ -72,14 +93,14 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Chưa có tài khoản? "
+                    android:text="Đã có tài khoản? "
                     android:textColor="@color/text_secondary" />
 
                 <TextView
-                    android:id="@+id/tvGoToRegister"
+                    android:id="@+id/tvGoToLogin"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Đăng ký"
+                    android:text="Đăng nhập"
                     android:textColor="@color/shopee_orange"
                     android:textStyle="bold" />
             </LinearLayout>

@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5">
+    android:background="@color/bg_gray">
 
     <com.google.android.material.appbar.AppBarLayout
         android:layout_width="match_parent"
@@ -13,7 +13,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#EE4D2D"
+            android:background="@color/shopee_orange"
             app:titleTextColor="@android:color/white"
             app:title="Shopee Mini"
             app:navigationIcon="@android:drawable/ic_menu_revert"
@@ -36,7 +36,7 @@
         android:layout_margin="16dp"
         android:src="@android:drawable/ic_input_add"
         android:visibility="gone"
-        app:backgroundTint="#EE4D2D"
-        app:tint="@android:color/white" />
+        app:backgroundTint="@color/shopee_orange"
+        app:tint="@color/white" />
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

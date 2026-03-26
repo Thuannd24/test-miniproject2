@@ -3,12 +3,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/bg_gray"
     android:padding="16dp">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Giỏ hàng của bạn"
+        android:textColor="@color/text_primary"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_marginBottom="16dp"/>
@@ -37,6 +39,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Tổng cộng:"
+            android:textColor="@color/text_primary"
             android:textSize="18sp"
             android:textStyle="bold"/>
 
@@ -45,23 +48,27 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="$0.00"
-            android:textSize="18sp"
-            android:textColor="@android:color/holo_red_dark"
+            android:textSize="20sp"
+            android:textColor="@color/price_color"
             android:textStyle="bold"/>
     </LinearLayout>
 
     <Button
         android:id="@+id/btnCheckout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thanh toán (Checkout)"/>
+        android:layout_height="50dp"
+        android:backgroundTint="@color/shopee_orange"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="THANH TOÁN"/>
 
     <Button
         android:id="@+id/btnContinueShopping"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Tiếp tục mua sắm"
-        android:backgroundTint="@android:color/darker_gray"
+        android:layout_height="50dp"
+        android:text="TIẾP TỤC MUA SẮM"
+        android:textColor="@color/text_primary"
+        android:backgroundTint="@color/white"
         android:layout_marginTop="8dp"/>
 
 </LinearLayout>

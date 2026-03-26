@@ -3,6 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/white"
     android:padding="16dp">
 
     <TextView
@@ -10,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Product Name"
+        android:textColor="@color/text_primary"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="8dp"/>
@@ -19,7 +21,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="$0.00"
-        android:textColor="@android:color/holo_green_dark"
+        android:textColor="@color/price_color"
+        android:textStyle="bold"
         android:textSize="20sp"
         android:layout_marginBottom="16dp"/>
 
@@ -28,13 +31,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Description goes here..."
+        android:textColor="@color/text_secondary"
         android:textSize="16sp"
         android:layout_marginBottom="32dp"/>
 
     <Button
         android:id="@+id/btnAddToCart"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Thêm vào giỏ hàng"/>
+        android:layout_height="50dp"
+        android:backgroundTint="@color/shopee_orange"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="THÊM VÀO GIỎ HÀNG"/>
 
 </LinearLayout>

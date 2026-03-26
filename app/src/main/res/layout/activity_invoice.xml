@@ -4,12 +4,14 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="24dp"
+    android:background="@color/bg_gray"
     android:gravity="top">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HÓA ĐƠN THANH TOÁN"
+        android:textColor="@color/shopee_orange"
         android:textSize="22sp"
         android:textStyle="bold"
         android:layout_gravity="center"
@@ -77,15 +79,18 @@
             android:layout_height="wrap_content"
             android:text="$0.00"
             android:textSize="20sp"
-            android:textColor="@android:color/holo_red_dark"
+            android:textColor="@color/price_color"
             android:textStyle="bold"/>
     </LinearLayout>
 
     <Button
         android:id="@+id/btnBackToHome"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Về Trang Chủ"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/shopee_orange"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:text="VỀ TRANG CHỦ"
         android:layout_marginTop="24dp"/>
 
 </LinearLayout>
