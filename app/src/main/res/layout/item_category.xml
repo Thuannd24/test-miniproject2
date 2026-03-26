@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="8dp"
+    app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="8dp"
     app:cardElevation="2dp">
 
@@ -21,7 +22,7 @@
             android:layout_weight="1"
             android:text="Category Name"
             android:textSize="16sp"
-            android:textColor="@android:color/black"
+            android:textColor="@color/text_primary"
             android:textStyle="bold" />
 
         <LinearLayout
@@ -51,7 +52,7 @@
             android:layout_width="20dp"
             android:layout_height="20dp"
             android:src="@android:drawable/ic_media_play"
-            app:tint="#757575" />
+            app:tint="@color/shopee_orange" />
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
