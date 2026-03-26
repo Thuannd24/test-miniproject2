@@ -11,15 +11,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MiniProject_2">
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ProductListActivity" />
+        <activity android:name=".CategoryListActivity" />
+        <activity android:name=".ProductDetailActivity" />
+        <activity android:name=".CartActivity" />
+        <activity android:name=".InvoiceActivity" />
+
     </application>
 
 </manifest>
