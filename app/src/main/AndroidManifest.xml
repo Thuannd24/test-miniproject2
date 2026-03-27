@@ -26,8 +26,6 @@
         <activity android:name=".ProductListActivity" />
         <activity android:name=".CategoryListActivity" />
         <activity android:name=".ProductDetailActivity" />
-        <activity android:name=".CartActivity" />
-        <activity android:name=".InvoiceActivity" />
 
     </application>
 

@@ -7,17 +7,13 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
 import com.example.miniproject_2.dao.CategoryDao;
-import com.example.miniproject_2.dao.OrderDao;
-import com.example.miniproject_2.dao.OrderDetailDao;
 import com.example.miniproject_2.dao.ProductDao;
 import com.example.miniproject_2.dao.UserDao;
 import com.example.miniproject_2.entity.Category;
-import com.example.miniproject_2.entity.Order;
-import com.example.miniproject_2.entity.OrderDetail;
 import com.example.miniproject_2.entity.Product;
 import com.example.miniproject_2.entity.User;
 
-@Database(entities = {User.class, Category.class, Product.class, Order.class, OrderDetail.class}, version = 2, exportSchema = false)
+@Database(entities = {User.class, Category.class, Product.class}, version = 3, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 
     private static final String DB_NAME = "miniproject2.db";
@@ -44,8 +40,6 @@ public abstract class AppDatabase extends RoomDatabase {
     public abstract UserDao userDao();
     public abstract CategoryDao categoryDao();
     public abstract ProductDao productDao();
-    public abstract OrderDao orderDao();
-    public abstract OrderDetailDao orderDetailDao();
 
     public void seedInitialData() {
         if (userDao().findByUsername("admin") == null) {

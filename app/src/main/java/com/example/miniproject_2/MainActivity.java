@@ -61,14 +61,6 @@ public class MainActivity extends BaseActivity implements ProductAdapter.OnProdu
             }
         });
 
-        ivCart.setOnClickListener(v -> {
-            if (prefsHelper.isLoggedIn()) {
-                startActivity(new Intent(this, CartActivity.class));
-            } else {
-                startActivity(new Intent(this, LoginActivity.class));
-            }
-        });
-
         updateUI();
     }
 
