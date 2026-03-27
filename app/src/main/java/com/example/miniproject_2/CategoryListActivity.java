@@ -17,7 +17,7 @@ import com.example.miniproject_2.entity.Category;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import java.util.List;
-
+//test
 public class CategoryListActivity extends BaseActivity implements CategoryAdapter.OnCategoryActionListener {
 
     private RecyclerView rvCategories;
