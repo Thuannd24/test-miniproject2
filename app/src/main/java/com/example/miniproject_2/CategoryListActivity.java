@@ -55,9 +55,8 @@ public class CategoryListActivity extends BaseActivity implements CategoryAdapte
 
     @Override
     public void onCategoryClick(Category category) {
-        Intent intent = new Intent(this, ProductListActivity.class);
-        intent.putExtra("CATEGORY_ID", category.id);
-        startActivity(intent);
+        // Product list removed - categories no longer have a purpose
+        Toast.makeText(this, "Danh mục không còn có sản phẩm", Toast.LENGTH_SHORT).show();
     }
 
     @Override

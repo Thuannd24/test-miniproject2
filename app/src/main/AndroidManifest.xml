@@ -23,9 +23,7 @@
 
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
-        <activity android:name=".ProductListActivity" />
         <activity android:name=".CategoryListActivity" />
-        <activity android:name=".ProductDetailActivity" />
 
     </application>
 
